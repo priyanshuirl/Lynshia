@@ -1,7 +1,7 @@
 {
   "name": "lynshia",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage":"https://lynshia.github.io/lynshia",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
