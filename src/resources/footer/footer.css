@@ -1,0 +1,93 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.flogo{
+    margin-top: 10px;
+}
+.flogo h3 {
+    font-size: 40px;
+}
+.flogo p {
+    font-size: 13px;
+}
+.social{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.social i{
+    margin: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+.social p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.social i:hover {
+    color: #8c52ff;
+}
+.list a{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.list a:hover{
+    color: #8c52ff;
+}
+.footh{
+    color: #c700ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.foot{
+    flex-direction: column-reverse;
+}
+.footone{
+    margin: 20px;
+}
+@media all and (min-width:700px){
+    .foot{
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 60px 0px;
+    }
+    .list{
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: start;
+    }
+}
+@media all and (min-width:1200px) {
+    .flogo h3{
+        font-size: 46px;
+    }
+    .flogo p{
+        font-size: 15px;
+    }
+    .social i{
+        font-size: 28px;
+    }
+    .social p{
+        font-size: 20px;
+    }
+    .footh{
+        font-size: 24px;
+    }
+    .footone{
+        margin: 30px;
+    }
+    .list{
+        margin-right: 140px;
+    }
+    .list a{
+        font-size: 18px;
+    }
+}
