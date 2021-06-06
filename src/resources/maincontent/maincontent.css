@@ -1,0 +1,188 @@
+.banner {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-image: url("./lmao.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+.banner h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    margin: 50px 10px 10px 10px;
+}
+.banner h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color:#fff;
+}
+.bannerbtns {
+    padding: 20px;
+    align-items: center;
+}
+.bannerbtns a{
+    border:1px solid #c700ff;
+    border-radius: 50px;
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.loginbanner{
+    color: #c700ff;
+}
+.loginbanner:hover{
+    color: #8c52ff;
+    border-color: #8c52ff;
+}
+.signbanner {
+    background-color: #c700ff;
+    color: #fff;
+}
+.signbanner:hover {
+    background-color: #8c52ff;
+    border-color: #8c52ff;
+}
+.tour {
+    color: #c700ff;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+.tagbanner {
+    width: 90%;
+    margin:auto;
+    padding: 30px;
+    height: auto;
+    color: #fff;
+    border-radius: 25px;
+    background: rgb(218,15,255);
+    background: radial-gradient(circle, rgba(218,15,255,1) 16%, rgba(179,44,255,1) 72%, rgba(127,82,255,1) 100%);
+      background-size: 400%;
+      animation-name: steam;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards;
+}
+.tagbanner h1{
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+}
+.tile{
+    background-image: url("./tiletwo.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 420px;
+    margin: 80px 0px;
+    padding-top: 170px;
+}
+.tile h5 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.tagbannerlol{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    color:#c700ff;
+}
+@keyframes steam {
+    0% {
+      background-position: 0;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+@media all and (min-width:700px){
+    .banner {
+        background-size: contain;
+        background-repeat: repeat-x;
+        height: 550px;
+    }
+    .banner h3{
+        font-size: 110px;
+        margin: 30px 10px 10px 10px;
+    }
+    .banner h4{
+        font-size:34px;
+    }
+   
+    .bannerbtns a{
+        width: 40%;
+        font-size: 40px;
+    }
+    .tour{
+        margin: 8px;
+        font-size: 40px;
+        letter-spacing: 8px;
+        margin-bottom: 100px;
+    }
+    .tagbanner h1 {
+        font-size: 50px;
+    }
+    .tagbanner{
+        width: 60%;
+    }
+    .tile {
+        height: 550px;
+        padding-top: 210px;
+    }
+    .tile h5{
+        font-size: 50px;
+    }
+    .tagwrapper{
+        flex-direction: row;
+        padding: 10px;
+    }
+    .tagbannerlol{
+        width:40%;
+    }
+}
+@media all and (min-width:1200px){
+    .banner{
+        height: 600px;
+    }
+    .banner h3{
+        font-size: 130px;
+    }
+    .banner h4{
+        font-size:40px;
+    }
+    .tagbanner h1 {
+        font-size: 50px;
+    }
+    .tile {
+        height: 550px;
+        padding-top: 240px;
+    }
+    .tile h5{
+        font-size: 60px;
+    }
+    .tagbanner{
+        width: 45%;
+    }
+    .tagbannerlol{
+        width:45%;
+    }
+    .tagbanner h1 {
+        font-size: 70px;
+    }
+    .tagwrapper{
+        justify-content: space-around;
+    }
+    .tagbannerlol{
+        font-size: 50px;
+    }
+}
