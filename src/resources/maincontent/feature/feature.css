@@ -23,6 +23,12 @@
     font-family: 'Poppins', sans-serif;
     margin: 20px;
 }
+.flip {
+    flex-direction: column;
+} 
+.flipinfo {
+    width: 100%;
+}
 @media all and (min-width:700px){
     .featwrapper{
         flex-direction: row;
@@ -41,6 +47,16 @@
     }
     .featinfo p{
         text-align: left;
+    }
+    .flip {
+        flex-direction: row-reverse;
+    }
+    .flipimg {
+        width: 40%;
+        margin-left: 60px;
+    }
+    .flipinfo {
+        width: 60%;
     }
 }
 @media all and (min-width:1200px){
@@ -62,5 +78,15 @@
     .featinfo h3{
         font-size: 40px;
         text-align: left;
+    }
+    .flip {
+        flex-direction: row-reverse;
+    }
+    .flipimg {
+        width: 40%;
+        margin-left: 60px;
+    }
+    .flipinfo {
+        width: 60%;
     }
 }
