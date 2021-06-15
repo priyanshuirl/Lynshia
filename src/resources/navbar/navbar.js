@@ -1,32 +1,37 @@
 import React, {useState} from "react"
+
 import $ from 'jquery';
 import "./navbar.css"
+
+import {Link} from 'react-router-dom'
+
 function Navbar (){
     const [arrow, setArrow]=useState("fas fa-angle-double-down")
     const [count, setCount]=useState(0)
     return (
             <div className="fixnav vflex">
     <nav className="hflex">
-       <a href={"/#"}><div className="logo vflex">
+    <Link to="/lynshia"><div className="logo vflex">
             <h3>Lynshia</h3>
             <p>Menstrual Assistant</p>
-        </div></a>
+        </div>
+    </Link>
         <div className="menuwrapper hflex">
         <div className="dmenu">
             <ul className="dlist hflex">
-               <a href={"/#"}><li className="selected done">Home</li></a>
-               <a href={"/#"}><li className="dtwo">About&nbsp;Us</li></a>
-               <a href={"/#"}><li className="dthree">PeePee</li></a>
+               <Link to="/lynshia"><li className="selected done">Home</li></Link>
+               <Link to="/lynshia/comingsoon"><li className="dtwo">About&nbsp;Us</li></Link>
+               <Link to="/lynshia/comingsoon"><li className="dthree">PeePee</li></Link>
             </ul>
         </div>
         <div className="navbutton hflex">
             <ul className="hflex lol">
-                <a href={"/#"}>
+                <Link to="/lynshia/comingsoon">
                     <li className="login">Login</li>
-                </a>
-                <a href={"/#"}>
+                </Link>
+                <Link to="/lynshia/comingsoon">
                     <li className="signup">Sign&nbsp;Up</li>
-                </a>
+                </Link>
                 <span className="toggle" onClick={()=>{
                       $(".one").slideToggle(100);
                       $(".two").slideToggle(200);
@@ -46,9 +51,9 @@ function Navbar (){
     </nav>
     <div className="menu vflex">
         <ul className="ulhvr">
-           <a href={"/#"}><li className="one"><span className="selected">Home</span></li></a>
-           <a href={"/#"}><li className="two">About Us</li></a>
-           <a href={"/#"}><li className="three">PeePee</li></a>
+           <Link to="/lynshia/comingsoon"><li className="one"><span className="selected">Home</span></li></Link>
+           <Link to="/lynshia/comingsoon"><li className="two">About Us</li></Link>
+           <Link to="/lynshia/comingsoon"><li className="three">PeePee</li></Link>
         </ul>
     </div>
 </div>

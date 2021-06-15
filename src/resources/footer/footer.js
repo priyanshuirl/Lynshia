@@ -1,15 +1,18 @@
+import React from "react"
 import "./footer.css"
+
+import {Link} from "react-router-dom"
 
 function Footer() {
     return (
         <footer className="vflex foot">
         <div className="vflex">
-        <a href={"/#"}>
+        <Link to="/lynshia">
         <div className="logo flogo">
             <h3>Lynshia</h3>
             <p>Menstrual Assistant</p>
         </div>
-        </a>
+        </Link>
         <div className="social">
             <i className="fab fa-twitter"></i>
             <i className="fab fa-instagram"></i>
@@ -22,17 +25,17 @@ function Footer() {
             <div className="footone">
             <p className="footh">Legal</p>
             <ul>
-                <a href={"/#"}><li>Copyright</li></a>
-                <a href={"/#"}><li>Privacy&nbsp;Policy</li></a>
-                <a href={"/#"}><li>Terms of Use</li></a>
+                <Link to="/lynshia/comingsoon"><li>Copyright</li></Link>
+                <Link to="/lynshia/comingsoon"><li>Privacy&nbsp;Policy</li></Link>
+                <Link to="/lynshia/comingsoon"><li>Terms of Use</li></Link>
             </ul>
             </div>
             <div className="footone">
             <p className="footh">Menu</p>
             <ul>
-                <a href={"/#"}><li><span className="selected">Home</span></li></a>
-                <a href={"/#"}><li>About Us</li></a>
-                <a href={"/#"}><li>Pee Pee</li></a>
+                <Link to="/lynshia"><li><span className="selected">Home</span></li></Link>
+                <Link to="/lynshia/comingsoon"><li>About Us</li></Link>
+                <Link to="/lynshia/comingsoon"><li>Pee Pee</li></Link>
             </ul>
             </div>
             <div className="footone">
