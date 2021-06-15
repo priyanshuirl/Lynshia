@@ -35,7 +35,7 @@ function Footer() {
             <ul>
                 <Link to="/"><li><span className="selected">Home</span></li></Link>
                 <Link to="/comingsoon"><li>About Us</li></Link>
-                <Link to="/comingsoon"><li>Pee Pee</li></Link>
+                <Link to="/comingsoon"><li>Blogs</li></Link>
             </ul>
             </div>
             <div className="footone">
