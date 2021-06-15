@@ -1,8 +1,10 @@
 import React from "react"
 
 import "./maincontent.css"
-import image from "./feature/proto.png"
-import flipimage from "./feature/protoflip.png"
+import tracker from "./feature/periodtracker.png"
+import cramps from "./feature/periodcramps.png"
+import reminder from "./feature/reminder.png"
+import tips from "./feature/tips.png"
 import FeatureProto from "./feature/featureproto"
 import FeatureProtoFlip from "./feature/featureprotoflip"
 
@@ -30,14 +32,19 @@ function MainContent(){
         <h5>What Can Lynshia Do For You?</h5>
     </div>
 
-    <FeatureProto fimage={image} heading="1. Title One" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quos provident dolor quasi velit consequatur ex repellat harum vel vitae facilis laborum iure."/>
+    <FeatureProto fimage={tracker} heading="1. Track & Predict" description="Say Goodbye to Unexpected Periods! Lynshia helps you Track and Predict your cycles to prepare you before your menstruation begins."/>
 
-    <FeatureProtoFlip fimage={flipimage} heading="2. Title Two" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quos provident dolor quasi velit consequatur ex repellat harum vel vitae facilis laborum iure."/>
+    <FeatureProtoFlip fimage={cramps} heading="2. Reduce Cramp Pain" description="Say Goodbye to Painful Cramps! Lynshia Assistant will give you step by step procedures to reduce cramp pain within Minutes!"/>
 
-    <FeatureProto fimage={image} heading="3. Title Three" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quos provident dolor quasi velit consequatur ex repellat harum vel vitae facilis laborum iure."/>
+    <FeatureProto fimage={reminder} heading="3. Reminders" description="Never Run out of Supplies again! Lynshia will remind you to stock your menstrual hygiene products before your menstruation begins with Unique Discounts and offers !"/>
 
-    <FeatureProtoFlip fimage={flipimage} heading="4. Title Four" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quos provident dolor quasi velit consequatur ex repellat harum vel vitae facilis laborum iure."/>
+    <FeatureProtoFlip fimage={tips} heading="4. Always With You" description="You're not Alone! Lynshia is a Smart Menstrual Assistant designed to assist you at Every stage of your cycle. It has dedicated Tips, Hacks and FAQ's section with Expert Guidance on almost every Topic related to Women's Health."/>
 
+    <div className="purplediv vflex">
+        <h2>Making Periods Easier to Manage.</h2>
+        <a href="{\#}"><h4>Sign Up Today!</h4></a>
+    </div>
+    
     </div>
     )
 }
