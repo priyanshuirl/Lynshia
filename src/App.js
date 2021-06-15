@@ -14,10 +14,10 @@ function App() {
     <div>
       <Navbar/>
       <Switch>
-        <Route exact path="/lynshia">
+        <Route exact path="/">
         <MainContent/>
         </Route>
-        <Route path="/lynshia/comingsoon">
+        <Route path="/comingsoon">
           <Comingsoon/>
         </Route>
       </Switch>

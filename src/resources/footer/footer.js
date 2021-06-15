@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer className="vflex foot">
         <div className="vflex">
-        <Link to="/lynshia">
+        <Link to="/">
         <div className="logo flogo">
             <h3>Lynshia</h3>
             <p>Menstrual Assistant</p>
@@ -25,17 +25,17 @@ function Footer() {
             <div className="footone">
             <p className="footh">Legal</p>
             <ul>
-                <Link to="/lynshia/comingsoon"><li>Copyright</li></Link>
-                <Link to="/lynshia/comingsoon"><li>Privacy&nbsp;Policy</li></Link>
-                <Link to="/lynshia/comingsoon"><li>Terms of Use</li></Link>
+                <Link to="/comingsoon"><li>Copyright</li></Link>
+                <Link to="/comingsoon"><li>Privacy&nbsp;Policy</li></Link>
+                <Link to="/comingsoon"><li>Terms of Use</li></Link>
             </ul>
             </div>
             <div className="footone">
             <p className="footh">Menu</p>
             <ul>
-                <Link to="/lynshia"><li><span className="selected">Home</span></li></Link>
-                <Link to="/lynshia/comingsoon"><li>About Us</li></Link>
-                <Link to="/lynshia/comingsoon"><li>Pee Pee</li></Link>
+                <Link to="/"><li><span className="selected">Home</span></li></Link>
+                <Link to="/comingsoon"><li>About Us</li></Link>
+                <Link to="/comingsoon"><li>Pee Pee</li></Link>
             </ul>
             </div>
             <div className="footone">

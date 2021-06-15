@@ -11,7 +11,7 @@ function Navbar (){
     return (
             <div className="fixnav vflex">
     <nav className="hflex">
-    <Link to="/lynshia"><div className="logo vflex">
+    <Link to="/"><div className="logo vflex">
             <h3>Lynshia</h3>
             <p>Menstrual Assistant</p>
         </div>
@@ -19,17 +19,17 @@ function Navbar (){
         <div className="menuwrapper hflex">
         <div className="dmenu">
             <ul className="dlist hflex">
-               <Link to="/lynshia"><li className="selected done">Home</li></Link>
-               <Link to="/lynshia/comingsoon"><li className="dtwo">About&nbsp;Us</li></Link>
-               <Link to="/lynshia/comingsoon"><li className="dthree">PeePee</li></Link>
+               <Link to="/"><li className="selected done">Home</li></Link>
+               <Link to="/comingsoon"><li className="dtwo">About&nbsp;Us</li></Link>
+               <Link to="/comingsoon"><li className="dthree">PeePee</li></Link>
             </ul>
         </div>
         <div className="navbutton hflex">
             <ul className="hflex lol">
-                <Link to="/lynshia/comingsoon">
+                <Link to="/comingsoon">
                     <li className="login">Login</li>
                 </Link>
-                <Link to="/lynshia/comingsoon">
+                <Link to="/comingsoon">
                     <li className="signup">Sign&nbsp;Up</li>
                 </Link>
                 <span className="toggle" onClick={()=>{
@@ -51,9 +51,9 @@ function Navbar (){
     </nav>
     <div className="menu vflex">
         <ul className="ulhvr">
-           <Link to="/lynshia/comingsoon"><li className="one"><span className="selected">Home</span></li></Link>
-           <Link to="/lynshia/comingsoon"><li className="two">About Us</li></Link>
-           <Link to="/lynshia/comingsoon"><li className="three">PeePee</li></Link>
+           <Link to="/comingsoon"><li className="one"><span className="selected">Home</span></li></Link>
+           <Link to="/comingsoon"><li className="two">About Us</li></Link>
+           <Link to="/comingsoon"><li className="three">PeePee</li></Link>
         </ul>
     </div>
 </div>
