@@ -105,6 +105,31 @@
       background-position: 400%;
     }
   }
+.purplediv{
+    height:auto;
+    width:100%;
+    background: rgb(199,0,255);
+    background: linear-gradient(180deg, rgba(199,0,255,1) 0%, rgba(94,23,235,1) 100%);
+    padding:60px 10px;
+    align-items: center;
+    margin-top: 40px;
+}
+.purplediv h2{
+    font-size:70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#fff;
+    margin:30px;
+}
+.purplediv h4{
+    font-size: 30px;
+    margin: 10px;
+    padding:10px 20px;
+    background-color: #fff;
+    border-radius:50px;
+    color:#8c52ff;
+    font-family: 'Poppins', sans-serif;
+}
 @media all and (min-width:700px){
     .banner {
         background-size: contain;
@@ -149,6 +174,12 @@
     .tagbannerlol{
         width:40%;
     }
+    .purplediv h2{
+        font-size:100px;
+    }
+    .purplediv h4 {
+        font-size: 40px;
+    }
 }
 @media all and (min-width:1200px){
     .banner{
@@ -184,5 +215,15 @@
     }
     .tagbannerlol{
         font-size: 50px;
+    }
+    .purplediv{
+        padding:80px 10px;
+    }
+    .purplediv h2{
+        font-size:120px;
+        margin:40px;
+    }
+    .purplediv h4{
+        margin-top:40px;    
     }
 }

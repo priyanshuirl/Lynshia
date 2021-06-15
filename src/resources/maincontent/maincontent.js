@@ -1,15 +1,12 @@
 import React from "react"
 
 import "./maincontent.css"
-import Feature from "./feature/feature"
-import image from "./feature/proto.png"
-import flipimage from "./feature/protoflip.png"
-
-var scwidth = window.innerWidth;
-var featdirection = (scwidth>700)?"row-reverse" : "column";
-var featimgwidth = (scwidth>700)?"40%":"";
-var featinfowidth = (scwidth>700)?"60%":"100%";
-var featleftmargin = (scwidth>700)?"60px":"";
+import tracker from "./feature/periodtracker.png"
+import cramps from "./feature/periodcramps.png"
+import reminder from "./feature/reminder.png"
+import tips from "./feature/tips.png"
+import FeatureProto from "./feature/featureproto"
+import FeatureProtoFlip from "./feature/featureprotoflip"
 
 function MainContent(){
     return (
@@ -34,11 +31,20 @@ function MainContent(){
     <div className="tile">
         <h5>What Can Lynshia Do For You?</h5>
     </div>
-    <Feature fimage={image} heading="1. Some Title" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quos provident dolor quasi velit consequatur ex repellat harum vel vitae facilis laborum iure."/>
 
-    <Feature fimage={flipimage} direction={featdirection} heading="2. Some Title" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quos provident dolor quasi velit consequatur ex repellat harum vel vitae facilis laborum iure." imgwidth={featimgwidth} infowidth={featinfowidth} leftmargin={featleftmargin}/>
+    <FeatureProto fimage={tracker} heading="1. Track & Predict" description="Say Goodbye to Unexpected Periods! Lynshia helps you Track and Predict your cycles to prepare you before your menstruation begins."/>
 
-    <Feature fimage={image} heading="3. Some Title" description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quos provident dolor quasi velit consequatur ex repellat harum vel vitae facilis laborum iure."/>
+    <FeatureProtoFlip fimage={cramps} heading="2. Reduce Cramp Pain" description="Say Goodbye to Painful Cramps! Lynshia Assistant will give you step by step procedures to reduce cramp pain within Minutes!"/>
+
+    <FeatureProto fimage={reminder} heading="3. Reminders" description="Never Run out of Supplies again! Lynshia will remind you to stock your menstrual hygiene products before your menstruation begins with Unique Discounts and offers !"/>
+
+    <FeatureProtoFlip fimage={tips} heading="4. Always With You" description="You're not Alone! Lynshia is a Smart Menstrual Assistant designed to assist you at Every stage of your cycle. It has dedicated Tips, Hacks and FAQ's section with Expert Guidance on almost every Topic related to Women's Health."/>
+
+    <div className="purplediv vflex">
+        <h2>Making Periods Easier to Manage.</h2>
+        <a href="{\#}"><h4>Sign Up Today!</h4></a>
+    </div>
+    
     </div>
     )
 }

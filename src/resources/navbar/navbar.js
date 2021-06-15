@@ -7,7 +7,7 @@ function Navbar (){
     return (
             <div className="fixnav vflex">
     <nav className="hflex">
-       <a href={"https://www.google.co.in/?gws_rd=ssl"}><div className="logo vflex">
+       <a href={"/#"}><div className="logo vflex">
             <h3>Lynshia</h3>
             <p>Menstrual Assistant</p>
         </div></a>
