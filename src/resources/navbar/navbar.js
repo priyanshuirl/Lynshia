@@ -21,7 +21,7 @@ function Navbar (){
             <ul className="dlist hflex">
                <Link to="/"><li className="selected done">Home</li></Link>
                <Link to="/comingsoon"><li className="dtwo">About&nbsp;Us</li></Link>
-               <Link to="/comingsoon"><li className="dthree">PeePee</li></Link>
+               <Link to="/comingsoon"><li className="dthree">Blogs</li></Link>
             </ul>
         </div>
         <div className="navbutton hflex">
@@ -51,9 +51,9 @@ function Navbar (){
     </nav>
     <div className="menu vflex">
         <ul className="ulhvr">
-           <Link to="/comingsoon"><li className="one"><span className="selected">Home</span></li></Link>
+           <Link to="/"><li className="one"><span className="selected">Home</span></li></Link>
            <Link to="/comingsoon"><li className="two">About Us</li></Link>
-           <Link to="/comingsoon"><li className="three">PeePee</li></Link>
+           <Link to="/comingsoon"><li className="three">Blogs</li></Link>
         </ul>
     </div>
 </div>

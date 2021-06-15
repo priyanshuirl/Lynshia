@@ -14,9 +14,9 @@ function Footer() {
         </div>
         </Link>
         <div className="social">
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-linkedin-in"></i>
+            <a href = "https://twitter.com/Lynshia_app" ><i className="fab fa-twitter"></i></a>
+            <a href = "https://www.instagram.com/lynshia_app/"><i className="fab fa-instagram"></i></a>
+            <a href = "https://www.linkedin.com/company/lynshia/"><i className="fab fa-linkedin-in"></i></a>
             <i className="fas fa-share-alt"></i>
             <p>&copy; All Rights Reserved</p>
         </div>
