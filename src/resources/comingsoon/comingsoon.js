@@ -1,8 +1,11 @@
-import React from "react"
+import React, {useEffect} from "react"
 
 import "./comingsoon.css"
 
 function Comingsoon(){
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className="comingbanner vflex">
             <h1>Coming Soon!</h1>

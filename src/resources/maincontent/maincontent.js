@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 
 import "./maincontent.css"
 import tracker from "./feature/periodtracker.png"
@@ -11,6 +11,9 @@ import FeatureProtoFlip from "./feature/featureprotoflip"
 import { Link } from "react-router-dom"
 
 function MainContent(){
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
         <div className="banner vflex">
