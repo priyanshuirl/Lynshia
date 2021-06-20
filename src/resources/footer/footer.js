@@ -4,6 +4,14 @@ import "./footer.css"
 import {Link} from "react-router-dom"
 
 function Footer() {
+    function copy() {
+        const el = document.createElement('input');
+        el.value = window.location.href;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+      }
     return (
         <footer className="vflex foot">
         <div className="vflex">
@@ -17,7 +25,7 @@ function Footer() {
             <a href = "https://twitter.com/Lynshia_app" ><i className="fab fa-twitter"></i></a>
             <a href = "https://www.instagram.com/lynshia_app/"><i className="fab fa-instagram"></i></a>
             <a href = "https://www.linkedin.com/company/lynshia/"><i className="fab fa-linkedin-in"></i></a>
-            <i className="fas fa-share-alt"></i>
+            <button onClick={ copy }><i className="fas fa-share-alt"></i></button>
             <p>&copy; All Rights Reserved</p>
         </div>
         </div> 

@@ -53,6 +53,10 @@ footer{
 .footone{
     margin: 20px;
 }
+button {
+    background: none;
+    border: none;
+}
 @media all and (min-width:700px){
     .foot{
         flex-direction: row;
