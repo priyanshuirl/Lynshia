@@ -5,14 +5,19 @@ import {Link} from "react-router-dom"
 
 function Footer() {
     function copy() {
+        var i=0;
         const el = document.createElement('input');
         el.value = window.location.href;
         document.body.appendChild(el);
         el.select();
         document.execCommand('copy');
         document.body.removeChild(el);
+        var toastbtn = document.querySelectorAll(".copytoast");
+        toastbtn[i].classList.add("displaytoast");
+        setTimeout(()=>{toastbtn[i].classList.remove("displaytoast");},2500);
       }
     return (
+        <div>
         <footer className="vflex foot">
         <div className="vflex">
         <Link to="/">
@@ -54,6 +59,8 @@ function Footer() {
             </div>
         </div>
     </footer>
+    <p className="copytoast">Link&nbsp;Copied!</p>
+    </div>
     )
 }
 

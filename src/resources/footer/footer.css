@@ -57,6 +57,22 @@ button {
     background: none;
     border: none;
 }
+.copytoast {
+    position: fixed;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%,0);
+    color:#c700ff;
+    padding: 10px;
+    background-color:#fff;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    display: none;
+}
+.displaytoast {
+    display: block;
+}
 @media all and (min-width:700px){
     .foot{
         flex-direction: row;
@@ -67,6 +83,10 @@ button {
         flex-direction: row;
         justify-content: space-around;
         text-align: start;
+    }
+    .copytoast{
+        bottom: 15%;
+        left: 30%;
     }
 }
 @media all and (min-width:1200px) {
