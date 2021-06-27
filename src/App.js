@@ -5,6 +5,7 @@ import Navbar from "./resources/navbar/navbar"
 import Footer from "./resources/footer/footer"
 import MainContent from "./resources/maincontent/maincontent"
 import Comingsoon from "./resources/comingsoon/comingsoon"
+import AboutUs from "./resources/aboutus/aboutus"
 
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/comingsoon">
           <Comingsoon/>
+        </Route>
+        <Route path="/aboutus">
+          <AboutUs/>
         </Route>
       </Switch>
       <Footer/>

@@ -20,7 +20,7 @@ function Navbar (){
         <div className="dmenu">
             <ul className="dlist hflex">
                <Link to="/"><li className="selected done">Home</li></Link>
-               <Link to="/comingsoon"><li className="dtwo">About&nbsp;Us</li></Link>
+               <Link to="/aboutus"><li className="dtwo">About&nbsp;Us</li></Link>
                <Link to="/comingsoon"><li className="dthree">Blogs</li></Link>
             </ul>
         </div>
@@ -52,7 +52,7 @@ function Navbar (){
     <div className="menu vflex">
         <ul className="ulhvr">
            <Link to="/"><li className="one"><span className="selected">Home</span></li></Link>
-           <Link to="/comingsoon"><li className="two">About Us</li></Link>
+           <Link to="/aboutus"><li className="two">About Us</li></Link>
            <Link to="/comingsoon"><li className="three">Blogs</li></Link>
         </ul>
     </div>
