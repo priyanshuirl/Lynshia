@@ -1,7 +1,10 @@
-import React from "react"
+import React, {useEffect} from "react"
 import './aboutus.css';
 
 function AboutUs() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
             <div class="aboutbanner vflex">
