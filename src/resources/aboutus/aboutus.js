@@ -19,7 +19,7 @@ function AboutUs() {
                     We here at Lynshia break the stereotypes and Provide crucial assistance and support to women across the Globe during those times through our virtual assistant.
                 </p>
                 <p class="tagbanner tgban"> Our goal is to empower every single woman during her menstruation and Beyond.</p>
-                <p class="content"> We built a Smart Personal Assistant that provides a plethora of features and crucial assistance to women during their Menstruation, from Tacking and predicting their cycles to helping manage and reduce their cramps while providing help and support through our Dedicated FAQ's, tips, tricks section, and Reminders.</p>
+                <p class="content"> We built a Smart Personal Assistant that provides a plethora of features and crucial assistance to women during their Menstruation, from Tracking and predicting their cycles to helping manage and reduce their cramps while providing help and support through our Dedicated FAQ's, tips, tricks section, and Reminders.</p>
             </div>
             <Link to="/comingsoon">
                 <div className="purplediv vflex">

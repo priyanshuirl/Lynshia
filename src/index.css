@@ -1,17 +1,19 @@
-
-*{
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
-body{
-    background-color: #fff;
+body {
+  background-color: #fff;
 }
 .hflex {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .vflex {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
 }

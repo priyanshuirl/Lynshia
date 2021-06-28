@@ -1,6 +1,5 @@
 .aboutbanner {
   align-items: center;
-  content: "";
   background-image: linear-gradient(
       rgba(199, 0, 255, 0.4),
       rgba(199, 0, 255, 0.4)
@@ -21,46 +20,46 @@
 .contentbanner p.content {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
-  margin: 0px 20px 20px 20px ;
+  margin: 0px 20px 20px 20px;
 }
-.contentbanner p.head{
-    font-size: 22px;
-    font-family: "Poppins", sans-serif;
-    color:#c700ff;
-    margin:20px;
+.contentbanner p.head {
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: #c700ff;
+  margin: 20px;
 }
 
-.contentbanner p.tagbanner{
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    margin:20px;
+.contentbanner p.tagbanner {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px;
 }
-@media all and (min-width:700px){
-    .aboutbanner{
-        height:500px;
-    }
-    .aboutbanner h1{
-        font-size:120px;
-        margin: 140px 10px;
-    }
-    .contentbanner p.head{
-        font-size: 42px;
-    }
-    .contentbanner p.content {
-        font-size: 26px;
-      }
-    .contentbanner p.tagbanner{
-        font-size: 50px;
-    }
-    .tgban{
-        width:90%;
-    }
-    .contentbanner{
-        padding: 20px;
-    }
+@media all and (min-width: 700px) {
+  .aboutbanner {
+    height: 500px;
+  }
+  .aboutbanner h1 {
+    font-size: 120px;
+    margin: 140px 10px;
+  }
+  .contentbanner p.head {
+    font-size: 42px;
+  }
+  .contentbanner p.content {
+    font-size: 26px;
+  }
+  .contentbanner p.tagbanner {
+    font-size: 50px;
+  }
+  .tgban {
+    width: 90%;
+  }
+  .contentbanner {
+    padding: 20px;
+  }
 }
-@media all and (min-width:1200px){
-    .contentbanner{
-        padding:20px 350px 100px 350px;
-    }
+@media all and (min-width: 1200px) {
+  .contentbanner {
+    padding: 20px 350px 100px 350px;
+  }
 }
