@@ -19,7 +19,7 @@ function Navbar() {
                 <div className="menuwrapper hflex">
                     <div className="dmenu">
                         <ul className="dlist hflex">
-                            <Link to="/"><li className="selected done">Home</li></Link>
+                            <Link to="/"><li className="done">Home</li></Link>
                             <Link to="/aboutus"><li className="dtwo">About&nbsp;Us</li></Link>
                             <Link to="/peoplebehindlynshia"><li className="dthree">People&nbsp;Behind&nbsp;Lynshia</li></Link>
                         </ul>
@@ -50,8 +50,20 @@ function Navbar() {
                 </div>
             </nav>
             <div className="menu vflex">
-                <ul className="ulhvr">
-                    <Link to="/"><li className="one"><span className="selected">Home</span></li></Link>
+                <ul className="ulhvr" onClick={() => {
+                                $(".one").slideUp(100);
+                                $(".two").slideUp(200);
+                                $(".three").slideUp(300);
+                                if (count === 0) {
+                                    setArrow("fa fa-angle-double-up")
+                                    setCount(1)
+                                }
+                                else if (count === 1) {
+                                    setArrow("fa fa-angle-double-down")
+                                    setCount(0)
+                                }
+                            }}>
+                    <Link to="/"><li className="one">Home</li></Link>
                     <Link to="/aboutus"><li className="two">About&nbsp;Us</li></Link>
                     <Link to="/peoplebehindlynshia"><li className="three">People&nbsp;Behind&nbsp;Lynshia</li></Link>
                 </ul>
