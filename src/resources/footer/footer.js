@@ -46,9 +46,9 @@ function Footer() {
                     <div className="footone">
                         <p className="footh">Menu</p>
                         <ul>
-                            <Link to="/"><li><span className="selected">Home</span></li></Link>
+                            <Link to="/"><li>Home</li></Link>
                             <Link to="/aboutus"><li>About Us</li></Link>
-                            <Link to="/comingsoon"><li>Blogs</li></Link>
+                            <Link to="/peoplebehindlynshia"><li>People Behind Lynshia</li></Link>
                         </ul>
                     </div>
                     <div className="footone">
