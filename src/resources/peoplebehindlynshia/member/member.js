@@ -11,8 +11,8 @@ function Member(props) {
                         <a href={props.linkedin}><i className="fab fa-linkedin"></i></a>
                         <a href={props.github}><i className="fab fa-github"></i></a>
                         <a href={props.instagram}><i className="fab fa-instagram"></i></a>
+                        <a href={"mailto:" + props.email}><i className="fas fa-envelope"></i></a>
                     </div>
-                    <h3><i className="fas fa-envelope"></i>{props.email}</h3>
                 </div>
             </div>
             <div className=" vflex pblmemdesc">
