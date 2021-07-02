@@ -74,7 +74,7 @@ button {
   display: block;
 }
 li .selected {
-  color: #c700ff;
+  color: #8c52ff;
 }
 @media all and (min-width: 700px) {
   .foot {
