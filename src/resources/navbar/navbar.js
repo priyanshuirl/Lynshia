@@ -19,9 +19,9 @@ function Navbar() {
                 <div className="menuwrapper hflex">
                     <div className="dmenu">
                         <ul className="dlist hflex">
-                        <li className="done"><NavLink exact activeClassName="selected" to="/" >Home</NavLink></li>
-                        <li className="dtwo"><NavLink activeClassName="selected" to="/aboutus" >About&nbsp;Us</NavLink></li>
-                        <li className="dthree"><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
+                            <li className="done"><NavLink exact activeClassName="selected" to="/" >Home</NavLink></li>
+                            <li className="dtwo"><NavLink activeClassName="selected" to="/aboutus" >About&nbsp;Us</NavLink></li>
+                            <li className="dthree"><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
                         </ul>
                     </div>
                     <div className="navbutton hflex">
@@ -51,21 +51,21 @@ function Navbar() {
             </nav>
             <div className="menu vflex">
                 <ul className="ulhvr" onClick={() => {
-                                $(".one").slideUp(100);
-                                $(".two").slideUp(200);
-                                $(".three").slideUp(300);
-                                if (count === 0) {
-                                    setArrow("fa fa-angle-double-up")
-                                    setCount(1)
-                                }
-                                else if (count === 1) {
-                                    setArrow("fa fa-angle-double-down")
-                                    setCount(0)
-                                }
-                            }}>
+                    $(".one").slideUp(100);
+                    $(".two").slideUp(200);
+                    $(".three").slideUp(300);
+                    if (count === 0) {
+                        setArrow("fa fa-angle-double-up")
+                        setCount(1)
+                    }
+                    else if (count === 1) {
+                        setArrow("fa fa-angle-double-down")
+                        setCount(0)
+                    }
+                }}>
                     <li className="one"><NavLink exact activeClassName="selected" to="/">Home</NavLink></li>
-                    <li className="two"><NavLink to="/aboutus">About&nbsp;Us</NavLink></li>
-                    <li className="three"><NavLink to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
+                    <li className="two"><NavLink activeClassName="selected" to="/aboutus">About&nbsp;Us</NavLink></li>
+                    <li className="three"><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
                 </ul>
             </div>
         </div>

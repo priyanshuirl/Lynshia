@@ -4,12 +4,19 @@ nav {
 }
 a {
   text-decoration: none;
+  color: #c700ff;
 }
 ul {
   list-style-type: none;
 }
 li {
   margin: 3px;
+}
+a:hover{
+  color:#8c52ff;
+}
+a:active{
+  color: #c700ff;
 }
 .logo {
   padding: 3px;
@@ -82,7 +89,7 @@ li {
 .ulhvr li:hover {
   color: #8c52ff;
 }
-.selected {
+.ulhvr .selected {
   color: #8c52ff;
 }
 .one,
