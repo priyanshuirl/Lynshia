@@ -1,6 +1,9 @@
 .aboutbanner {
   align-items: center;
-  background-image:
+  background-image: linear-gradient(
+      rgba(199, 0, 255, 0.4),
+      rgba(199, 0, 255, 0.4)
+    ),
     url("groupwomen.jpg");
   background-size: cover;
   background-repeat: no-repeat;
