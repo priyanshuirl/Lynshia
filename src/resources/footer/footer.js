@@ -1,7 +1,7 @@
 import React from "react"
 import "./footer.css"
 
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 function Footer() {
     function copy() {
@@ -20,12 +20,12 @@ function Footer() {
         <div>
             <footer className="vflex foot">
                 <div className="vflex">
-                    <Link to="/">
+                    <NavLink to="/">
                         <div className="logo flogo">
                             <h3>Lynshia</h3>
                             <p>Menstrual Assistant</p>
                         </div>
-                    </Link>
+                    </NavLink>
                     <div className="social">
                         <a href="https://twitter.com/Lynshia_app" ><i className="fab fa-twitter"></i></a>
                         <a href="https://www.instagram.com/lynshia_app/"><i className="fab fa-instagram"></i></a>
@@ -38,17 +38,17 @@ function Footer() {
                     <div className="footone">
                         <p className="footh">Legal</p>
                         <ul>
-                            <Link to="/comingsoon"><li>Copyright</li></Link>
-                            <Link to="/comingsoon"><li>Privacy&nbsp;Policy</li></Link>
-                            <Link to="/comingsoon"><li>Terms of Use</li></Link>
+                        <li><NavLink activeClassName="selected" to="/comingsoon">Copyright</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/comingsoon">Privacy&nbsp;Policy</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/comingsoon">Terms of Use</NavLink></li>
                         </ul>
                     </div>
                     <div className="footone">
                         <p className="footh">Menu</p>
                         <ul>
-                            <Link to="/"><li>Home</li></Link>
-                            <Link to="/aboutus"><li>About Us</li></Link>
-                            <Link to="/peoplebehindlynshia"><li>People Behind Lynshia</li></Link>
+                        <li><NavLink exact activeClassName="selected" to="/">Home</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/aboutus">About Us</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/peoplebehindlynshia">People Behind Lynshia</NavLink></li>
                         </ul>
                     </div>
                     <div className="footone">
