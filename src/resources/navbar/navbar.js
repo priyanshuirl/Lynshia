@@ -3,7 +3,7 @@ import React, { useState } from "react"
 import $ from 'jquery';
 import "./navbar.css"
 
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     const [arrow, setArrow] = useState("fas fa-angle-double-down")
@@ -11,27 +11,27 @@ function Navbar() {
     return (
         <div className="fixnav vflex">
             <nav className="hflex">
-                <Link to="/"><div className="logo vflex">
+                <NavLink to="/"><div className="logo vflex">
                     <h3>Lynshia</h3>
                     <p>Menstrual Assistant</p>
                 </div>
-                </Link>
+                </NavLink>
                 <div className="menuwrapper hflex">
                     <div className="dmenu">
                         <ul className="dlist hflex">
-                            <Link to="/"><li className="done">Home</li></Link>
-                            <Link to="/aboutus"><li className="dtwo">About&nbsp;Us</li></Link>
-                            <Link to="/peoplebehindlynshia"><li className="dthree">People&nbsp;Behind&nbsp;Lynshia</li></Link>
+                        <li className="done"><NavLink exact activeClassName="selected" to="/" >Home</NavLink></li>
+                        <li className="dtwo"><NavLink activeClassName="selected" to="/aboutus" >About&nbsp;Us</NavLink></li>
+                        <li className="dthree"><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
                         </ul>
                     </div>
                     <div className="navbutton hflex">
                         <ul className="hflex lol">
-                            <Link to="/comingsoon">
+                            <NavLink to="/comingsoon">
                                 <li className="login">Login</li>
-                            </Link>
-                            <Link to="/comingsoon">
+                            </NavLink>
+                            <NavLink to="/comingsoon">
                                 <li className="signup">Sign&nbsp;Up</li>
-                            </Link>
+                            </NavLink>
                             <span className="toggle" onClick={() => {
                                 $(".one").slideToggle(100);
                                 $(".two").slideToggle(200);
@@ -63,9 +63,9 @@ function Navbar() {
                                     setCount(0)
                                 }
                             }}>
-                    <Link to="/"><li className="one">Home</li></Link>
-                    <Link to="/aboutus"><li className="two">About&nbsp;Us</li></Link>
-                    <Link to="/peoplebehindlynshia"><li className="three">People&nbsp;Behind&nbsp;Lynshia</li></Link>
+                    <li className="one"><NavLink exact activeClassName="selected" to="/">Home</NavLink></li>
+                    <li className="two"><NavLink to="/aboutus">About&nbsp;Us</NavLink></li>
+                    <li className="three"><NavLink to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
                 </ul>
             </div>
         </div>
