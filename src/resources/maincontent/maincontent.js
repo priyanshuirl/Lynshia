@@ -24,7 +24,7 @@ function MainContent() {
                 <div className="vflex bannerbtns">
                     <a href={"/#"} className="loginbanner">Login</a>
                     <a href={"/#"} className="signbanner">Sign Up</a>
-                    <h2 className="tour">Take a Tour <i className="fas fa-arrow-circle-down"></i></h2>
+                    <h2 className="tour">Scroll Down to Take a Tour <i className="fas fa-arrow-circle-down"></i></h2>
                 </div>
             </Link>
             <div className="tagwrapper vflex">

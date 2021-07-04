@@ -50,7 +50,6 @@
 }
 .tour {
   color: #c700ff;
-  letter-spacing: 5px;
   font-size: 20px;
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -160,7 +159,6 @@
   .tour {
     margin: 8px;
     font-size: 40px;
-    letter-spacing: 8px;
     margin-bottom: 100px;
   }
   .tagbanner h1 {
