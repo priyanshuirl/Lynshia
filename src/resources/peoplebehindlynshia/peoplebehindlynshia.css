@@ -1,13 +1,28 @@
 .pblbanner {
   align-items: center;
-  background: rgb(199, 0, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(199, 0, 255, 1) 0%,
-    rgba(94, 23, 235, 1) 100%
+  background: rgb(218, 15, 255);
+  background: radial-gradient(
+    circle,
+    rgba(218, 15, 255, 1) 16%,
+    rgba(179, 44, 255, 1) 72%,
+    rgba(127, 82, 255, 1) 100%
   );
+  background-size: 400%;
+  animation-name: steam;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
   width: 100%;
   height: 250px;
+}
+@keyframes steam {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 400%;
+  }
 }
 .pblbanner h1 {
   font-family: "Lato", sans-serif;
