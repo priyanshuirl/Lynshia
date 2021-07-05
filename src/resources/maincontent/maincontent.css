@@ -47,6 +47,7 @@
 .signbanner:hover {
   background-color: #8c52ff;
   border-color: #8c52ff;
+  color: #fff;
 }
 .tour {
   color: #c700ff;
