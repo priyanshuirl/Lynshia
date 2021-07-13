@@ -68,6 +68,7 @@ a:active{
   top: 0;
   background-color: #fff;
   border-top: 5px solid #c700ff;
+  z-index: 10;
 }
 .menu {
   align-items: center;

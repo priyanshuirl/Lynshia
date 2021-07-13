@@ -139,6 +139,19 @@
   color: #8c52ff;
   font-family: "Poppins", sans-serif;
 }
+.iframecontainer{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframecontainer iframe{
+  position: absolute;
+  top:50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 @media all and (min-width: 700px) {
   .banner {
     background-size: contain;
@@ -188,6 +201,9 @@
   .purplediv h4 {
     font-size: 40px;
   }
+  .iframecontainer iframe{
+    top:25px;
+  }
 }
 @media all and (min-width: 1200px) {
   .banner {
@@ -233,5 +249,24 @@
   }
   .purplediv h4 {
     margin-top: 40px;
+  }
+  .iframecontainer{
+    position: relative;
+    width: 100%;
+    padding-bottom: 46%; 
+    height: 0;
+  }
+  .iframecontainer iframe{
+    position: absolute;
+    top:80px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 58%;
+    height: 500px;
+  }
+}
+@media all and (min-width:1300px){
+  .iframecontainer{
+    padding-bottom: 40%;
   }
 }
