@@ -21,12 +21,10 @@ function AboutUs() {
                 <p className="tagbanner tgban"> Our goal is to empower every single woman during her menstruation and Beyond.</p>
                 <p className="content"> We built a Smart Personal Assistant that provides a plethora of features and crucial assistance to women during their Menstruation, from Tracking and predicting their cycles to helping manage and reduce their cramps while providing help and support through our Dedicated FAQ's, tips, tricks section, and Reminders.</p>
             </div>
-            <Link to="/comingsoon">
-                <div className="purplediv vflex">
-                    <h2>Making Periods Easier to Manage.</h2>
-                    <h4>Sign Up Today!</h4>
-                </div>
-            </Link>
+            <div className="purplediv vflex">
+                <h2>Making Periods Easier to Manage.</h2>
+                <Link to="/comingsoon"><h4>Sign Up Today!</h4></Link>
+            </div>
         </div>
     )
 }

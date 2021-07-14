@@ -29,12 +29,10 @@ function PeopleBehindLynshia() {
                 <MemberFlip image={shia} name="Arshia Sandhu" title="Co-Founder and CEO" description="Miss Magic! With her unparalleled Creativity and Development Skills, Arshia gave Lynshia its magic. A Bachelor of Computer Science student from the University of Guelph and A Full Stack Developer, she holds a minor in Project Management. Arshia never fails to amaze us with her Creative solutions to Challenging Problems and out of the box Ideas. She is the Driving Force behind Team Lynshia." linkedin="https://www.linkedin.com/in/arshiasandhu/" github="https://github.com/arshiaaaa" email="arshiasandhu07@gmail.com" instagram="https://www.instagram.com/arshiaaa._._/" />
 
             </div>
-            <Link to="/comingsoon">
-                <div className="purplediv vflex">
-                    <h2>Making Periods Easier to Manage.</h2>
-                    <h4>Sign Up Today!</h4>
-                </div>
-            </Link>
+            <div className="purplediv vflex">
+                <h2>Making Periods Easier to Manage.</h2>
+                <Link to="/comingsoon"><h4>Sign Up Today!</h4></Link>
+            </div>
         </div>
     )
 }
