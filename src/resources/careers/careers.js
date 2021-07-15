@@ -21,7 +21,7 @@ function Careers() {
                     <p className="tagbanner careerban">You have the Potential to Change the World.</p>
                 </div>
                 <h3>Come Join Us in Our Mission. Be a Part of Team Lynshia.</h3>
-                    <a href={"https://docs.google.com/forms/d/e/1FAIpQLSf3ptA0N5JbIGMK-ypoUe3diGYf3wI6JiH4QGaAqHPTOj9zUQ/viewform"}>
+                <a href={"https://docs.google.com/forms/d/e/1FAIpQLSf3ptA0N5JbIGMK-ypoUe3diGYf3wI6JiH4QGaAqHPTOj9zUQ/viewform"}>
                     <h4>Apply Now</h4></a>
             </div>
             <div className="purplediv vflex">

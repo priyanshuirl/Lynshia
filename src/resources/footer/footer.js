@@ -38,18 +38,18 @@ function Footer() {
                     <div className="footone">
                         <p className="footh">Legal</p>
                         <ul>
-                        <li><NavLink activeClassName="selected" to="/comingsoon">Copyright</NavLink></li>
-                        <li><NavLink activeClassName="selected" to="/comingsoon">Privacy&nbsp;Policy</NavLink></li>
-                        <li><NavLink activeClassName="selected" to="/comingsoon">Terms of Use</NavLink></li>
+                            <li><NavLink activeClassName="selected" to="/comingsoon">Copyright</NavLink></li>
+                            <li><NavLink activeClassName="selected" to="/comingsoon">Privacy&nbsp;Policy</NavLink></li>
+                            <li><NavLink activeClassName="selected" to="/comingsoon">Terms of Use</NavLink></li>
                         </ul>
                     </div>
                     <div className="footone">
                         <p className="footh">Menu</p>
                         <ul>
-                        <li><NavLink exact activeClassName="selected" to="/">Home</NavLink></li>
-                        <li><NavLink activeClassName="selected" to="/aboutus">About&nbsp;Us</NavLink></li>
-                        <li><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
-                        <li><NavLink activeClassName="selected" to="/careers">Careers</NavLink></li>
+                            <li><NavLink exact activeClassName="selected" to="/">Home</NavLink></li>
+                            <li><NavLink activeClassName="selected" to="/aboutus">About&nbsp;Us</NavLink></li>
+                            <li><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
+                            <li><NavLink activeClassName="selected" to="/careers">Careers</NavLink></li>
 
                         </ul>
                     </div>
@@ -58,6 +58,9 @@ function Footer() {
                         <ul>
                             <a href="mailto:lynshia.app@gmail.com"><li>lynshia.app@gmail.com</li></a>
                         </ul>
+                        <div className="dmca">
+                            <a href="//www.dmca.com/Protection/Status.aspx?ID=02110291-7bee-4587-aee6-ae5f55d1e5a4" title="DMCA.com Protection Status" className="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w200-2x1-03.png?ID=02110291-7bee-4587-aee6-ae5f55d1e5a4" alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                        </div>
                     </div>
                 </div>
             </footer>

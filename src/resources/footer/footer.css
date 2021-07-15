@@ -75,6 +75,9 @@ button {
 li .selected {
   color: #8c52ff;
 }
+.dmca {
+  margin-top: 15px;
+}
 @media all and (min-width: 700px) {
   .foot {
     flex-direction: row;
@@ -92,12 +95,12 @@ li .selected {
   }
   .social i {
     font-size: 20px;
-    margin:5px;
+    margin: 5px;
   }
-  .social p{
+  .social p {
     font-size: 14px;
   }
-  .list a{
+  .list a {
     font-size: 16px;
   }
 }
@@ -127,7 +130,7 @@ li .selected {
   .list a {
     font-size: 20px;
   }
-  .foot{
+  .foot {
     padding-left: 40px;
   }
 }

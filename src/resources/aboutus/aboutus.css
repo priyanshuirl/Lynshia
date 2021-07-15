@@ -48,10 +48,10 @@
   font-family: sans-serif;
 }
 @media all and (min-width: 700px) {
-  .alogo{
+  .alogo {
     margin-right: 30px;
   }
-  .abtwrap{
+  .abtwrap {
     flex-direction: row;
     padding: 20px;
   }
@@ -85,32 +85,33 @@
     font-size: 80px;
   }
   .alogo p {
-    font-size: 25px;  }
+    font-size: 25px;
+  }
 }
 @media all and (min-width: 1200px) {
   .contentbanner {
     padding: 20px 350px 100px 350px;
   }
-  .aboutbanner{
-    height:450px;
+  .aboutbanner {
+    height: 450px;
   }
-  .aboutbanner h1{
+  .aboutbanner h1 {
     font-size: 180px;
   }
-  .abtwrap{
+  .abtwrap {
     padding: 40px 180px;
     justify-content: space-evenly;
   }
   .abtwrap p.head {
     font-size: 45px;
   }
-  .alogo{
+  .alogo {
     margin-right: 80px;
   }
   .alogo h3 {
     font-size: 100px;
   }
   .alogo p {
-    font-size: 30px;  
-}
+    font-size: 30px;
+  }
 }
