@@ -7,6 +7,7 @@ import MainContent from "./resources/maincontent/maincontent"
 import Comingsoon from "./resources/comingsoon/comingsoon"
 import AboutUs from "./resources/aboutus/aboutus"
 import PeopleBehindLynshia from "./resources/peoplebehindlynshia/peoplebehindlynshia"
+import Careers from "./resources/careers/careers"
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/peoplebehindlynshia">
             <PeopleBehindLynshia />
+          </Route>
+          <Route path="/careers">
+            <Careers />
           </Route>
         </Switch>
         <Footer />

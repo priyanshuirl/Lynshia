@@ -21,6 +21,7 @@ function Navbar() {
                         <ul className="dlist hflex">
                             <li className="done"><NavLink exact activeClassName="selected" to="/" >Home</NavLink></li>
                             <li className="dtwo"><NavLink activeClassName="selected" to="/aboutus" >About&nbsp;Us</NavLink></li>
+                            <li className="dfour"><NavLink activeClassName="selected" to="/careers" >Careers</NavLink></li>
                             <li className="dthree"><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
                         </ul>
                     </div>
@@ -36,6 +37,7 @@ function Navbar() {
                                 $(".one").slideToggle(100);
                                 $(".two").slideToggle(200);
                                 $(".three").slideToggle(300);
+                                $(".four").slideToggle(400);
                                 if (count === 0) {
                                     setArrow("fa fa-angle-double-up")
                                     setCount(1)
@@ -54,6 +56,7 @@ function Navbar() {
                     $(".one").slideUp(100);
                     $(".two").slideUp(200);
                     $(".three").slideUp(300);
+                    $(".four").slideUp(400);
                     if (count === 0) {
                         setArrow("fa fa-angle-double-up")
                         setCount(1)
@@ -65,6 +68,7 @@ function Navbar() {
                 }}>
                     <li className="one"><NavLink exact activeClassName="selected" to="/">Home</NavLink></li>
                     <li className="two"><NavLink activeClassName="selected" to="/aboutus">About&nbsp;Us</NavLink></li>
+                    <li className="four"><NavLink exact activeClassName="selected" to="/careers">Careers</NavLink></li>
                     <li className="three"><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
                 </ul>
             </div>

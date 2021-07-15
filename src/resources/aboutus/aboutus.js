@@ -12,8 +12,14 @@ function AboutUs() {
             <div className="aboutbanner vflex">
                 <h1>About Us</h1>
             </div>
-            <div className="contentbanner vflex">
+            <div className="abtwrap vflex">
+                <div className="alogo vflex">
+                    <h3>Lynshia</h3>
+                    <p>Menstrual Assistant</p>
+                </div>
                 <p className="head">Lynshia is one of the World's Most Innovative and Fastest Growing women's health platforms.</p>
+            </div>
+            <div className="contentbanner vflex">
                 <p className="content">
                     Menstruation has always been considered a taboo in mainstream society and often times we find women struggling with this even in the 21st Century many times even risking their health due to lack of awareness and misinformation.<br /><br />
                     We here at Lynshia break the stereotypes and Provide crucial assistance and support to women across the Globe during those times through our virtual assistant.

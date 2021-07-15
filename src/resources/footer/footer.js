@@ -47,8 +47,10 @@ function Footer() {
                         <p className="footh">Menu</p>
                         <ul>
                         <li><NavLink exact activeClassName="selected" to="/">Home</NavLink></li>
-                        <li><NavLink activeClassName="selected" to="/aboutus">About Us</NavLink></li>
-                        <li><NavLink activeClassName="selected" to="/peoplebehindlynshia">People Behind Lynshia</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/aboutus">About&nbsp;Us</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/peoplebehindlynshia">People&nbsp;Behind&nbsp;Lynshia</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/careers">Careers</NavLink></li>
+
                         </ul>
                     </div>
                     <div className="footone">

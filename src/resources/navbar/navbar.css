@@ -95,7 +95,8 @@ a:active{
 }
 .one,
 .two,
-.three {
+.three,
+.four {
   display: none;
 }
 @media all and (min-width: 700px) {

@@ -3,8 +3,7 @@ footer {
   height: auto;
   background-color: #222;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding: 40px;
 }
 .flogo {
   margin-top: 10px;
@@ -51,7 +50,7 @@ footer {
   flex-direction: column-reverse;
 }
 .footone {
-  margin: 20px;
+  margin: 10px;
 }
 button {
   background: none;
@@ -91,30 +90,44 @@ li .selected {
     bottom: 15%;
     left: 30%;
   }
+  .social i {
+    font-size: 20px;
+    margin:5px;
+  }
+  .social p{
+    font-size: 14px;
+  }
+  .list a{
+    font-size: 16px;
+  }
 }
 @media all and (min-width: 1200px) {
   .flogo h3 {
-    font-size: 46px;
+    font-size: 60px;
   }
   .flogo p {
-    font-size: 15px;
+    font-size: 18px;
   }
   .social i {
-    font-size: 28px;
+    font-size: 35px;
+    margin: 10px;
   }
   .social p {
-    font-size: 20px;
+    font-size: 22px;
   }
   .footh {
-    font-size: 24px;
+    font-size: 30px;
   }
   .footone {
     margin: 30px;
   }
   .list {
-    margin-right: 140px;
+    margin-right: 50px;
   }
   .list a {
-    font-size: 18px;
+    font-size: 20px;
+  }
+  .foot{
+    padding-left: 40px;
   }
 }
