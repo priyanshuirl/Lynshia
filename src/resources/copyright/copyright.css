@@ -1,0 +1,32 @@
+.copycont {
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin: 5px;
+}
+.copycont p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 5px;
+}
+.dcmacopy{
+    margin: 30px;
+}
+@media all and (min-width: 700px) {
+  .copycont {
+    padding: 40px;
+    margin: 10px;
+  }
+  .copycont p {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .copycont {
+    padding: 80px;
+    margin: 20px;
+  }
+  .copycont p {
+    font-size: 24px;
+  }
+}

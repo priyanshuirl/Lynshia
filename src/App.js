@@ -10,6 +10,8 @@ import PeopleBehindLynshia from "./resources/peoplebehindlynshia/peoplebehindlyn
 import Careers from "./resources/careers/careers"
 import PrivacyPolicy from "./resources/privacypolicy/privacypolicy";
 import TermsOfUse from "./resources/termsofuse/termsofuse";
+import CopyRight from "./resources/copyright/copyright";
+import Disclamer from "./resources/disclamer/disclamer";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
@@ -39,6 +41,12 @@ function App() {
           </Route>
           <Route path="/termsofuse">
             <TermsOfUse />
+          </Route>
+          <Route path="/copyright">
+            <CopyRight />
+          </Route>
+          <Route path="/disclamer">
+            <Disclamer />
           </Route>
         </Switch>
         <Footer />
