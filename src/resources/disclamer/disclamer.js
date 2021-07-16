@@ -9,7 +9,7 @@ function Disclamer() {
     return (
         <div>
             <div className="aboutbanner vflex">
-                <h1>Disclamer</h1>
+                <h1>Disclaimer</h1>
             </div>
             <div className="copycont vflex disclamer">
 

@@ -41,7 +41,7 @@ function Footer() {
                             <li><NavLink activeClassName="selected" to="/copyright">Copyright</NavLink></li>
                             <li><NavLink activeClassName="selected" to="/privacypolicy">Privacy&nbsp;Policy</NavLink></li>
                             <li><NavLink activeClassName="selected" to="/termsofuse">Terms of Use</NavLink></li>
-                            <li><NavLink activeClassName="selected" to="/disclamer">Disclamer</NavLink></li>
+                            <li><NavLink activeClassName="selected" to="/disclamer">Disclaimer</NavLink></li>
 
                         </ul>
                     </div>
