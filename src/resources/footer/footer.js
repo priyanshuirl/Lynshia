@@ -39,7 +39,7 @@ function Footer() {
                         <p className="footh">Legal</p>
                         <ul>
                             <li><NavLink activeClassName="selected" to="/comingsoon">Copyright</NavLink></li>
-                            <li><NavLink activeClassName="selected" to="/comingsoon">Privacy&nbsp;Policy</NavLink></li>
+                            <li><NavLink activeClassName="selected" to="/privacypolicy">Privacy&nbsp;Policy</NavLink></li>
                             <li><NavLink activeClassName="selected" to="/comingsoon">Terms of Use</NavLink></li>
                         </ul>
                     </div>

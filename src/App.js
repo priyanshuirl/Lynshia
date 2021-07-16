@@ -8,6 +8,7 @@ import Comingsoon from "./resources/comingsoon/comingsoon"
 import AboutUs from "./resources/aboutus/aboutus"
 import PeopleBehindLynshia from "./resources/peoplebehindlynshia/peoplebehindlynshia"
 import Careers from "./resources/careers/careers"
+import PrivacyPolicy from "./resources/privacypolicy/privacypolicy";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/careers">
             <Careers />
+          </Route>
+          <Route path="/privacypolicy">
+            <PrivacyPolicy />
           </Route>
         </Switch>
         <Footer />

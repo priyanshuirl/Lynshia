@@ -1,0 +1,37 @@
+.privpol {
+  justify-content: space-around;
+  padding: 20px;
+  margin: 5px;
+}
+.privpol p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 5px;
+}
+.privp {
+  height: 200px !important;
+}
+@media all and (min-width: 700px) {
+  .privp {
+    height: 250px !important;
+  }
+  .privpol {
+    padding: 40px;
+    margin: 10px;
+  }
+  .privpol p {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .privp {
+    height: 300px !important;
+  }
+  .privpol {
+    padding: 80px;
+    margin: 20px;
+  }
+  .privpol p {
+    font-size: 24px;
+  }
+}
