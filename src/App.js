@@ -9,6 +9,7 @@ import AboutUs from "./resources/aboutus/aboutus"
 import PeopleBehindLynshia from "./resources/peoplebehindlynshia/peoplebehindlynshia"
 import Careers from "./resources/careers/careers"
 import PrivacyPolicy from "./resources/privacypolicy/privacypolicy";
+import TermsOfUse from "./resources/termsofuse/termsofuse";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path="/privacypolicy">
             <PrivacyPolicy />
+          </Route>
+          <Route path="/termsofuse">
+            <TermsOfUse />
           </Route>
         </Switch>
         <Footer />

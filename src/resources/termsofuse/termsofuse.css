@@ -1,0 +1,37 @@
+.termofuse {
+  height: 200px !important;
+}
+.termscont {
+  justify-content: space-around;
+  padding: 20px;
+  margin: 5px;
+}
+.termscont p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 5px;
+}
+@media all and (min-width: 700px) {
+  .termofuse {
+    height: 250px !important;
+  }
+  .termscont {
+    padding: 40px;
+    margin: 10px;
+  }
+  .termscont p {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .termofuse {
+    height: 300px !important;
+  }
+  .termscont {
+    padding: 80px;
+    margin: 20px;
+  }
+  .termscont p {
+    font-size: 24px;
+  }
+}
