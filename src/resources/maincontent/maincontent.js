@@ -14,6 +14,18 @@ function MainContent() {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
+    setTimeout(() => {
+        document.getElementsByClassName("cookienotice")[0].classList.add("cookieactive");
+        if (localStorage.getItem("isCookieDismissed")) {
+            document.getElementsByClassName("cookienotice")[0].classList.remove("cookieactive");
+        }
+        else {
+            document.getElementsByClassName("cookiebtn")[0].addEventListener("click", () => {
+                localStorage.setItem("isCookieDismissed", true)
+                document.getElementsByClassName("cookienotice")[0].classList.remove("cookieactive");
+            })
+        }
+    }, 2500);
     return (
         <div>
             <div className="banner vflex">
@@ -53,7 +65,12 @@ function MainContent() {
                 <h2>Making Periods Easier to Manage.</h2>
                 <Link to="/comingsoon"><h4>Sign Up Today!</h4></Link>
             </div>
-
+            <div className="vflex cookiewrap">
+                <div className="cookienotice">
+                    <p>By continuing to browse the site you agree to our use of cookies. To learn more visit our <Link to="/privacypolicy">Privacy Policy</Link> and <Link to="/termsofuse">Terms Of Use</Link>.</p>
+                    <button className="cookiebtn">Got it!</button>
+                </div>
+            </div>
         </div>
     )
 }
