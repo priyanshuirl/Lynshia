@@ -46,9 +46,9 @@
   border-radius: 50px;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  box-shadow: -3px 3px 21px -4px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -3px 3px 21px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -3px 3px 21px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px 3px 5px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -3px 3px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px 3px 5px 1px rgba(0,0,0,0.75);
   font-weight: 600;
 }
 .careercont h3 {
