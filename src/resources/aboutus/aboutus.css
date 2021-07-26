@@ -9,6 +9,12 @@
   width: 100%;
   height: 200px;
 }
+.contentbanner h5 {
+  font-size: 60px;
+  margin: 30px 20px 20px 20px;
+  color: #8c52ff;
+  font-family: "Lato", sans-serif;
+}
 .aboutbanner h1 {
   font-family: "Lato", sans-serif;
   font-size: 60px;
@@ -17,7 +23,7 @@
   font-weight: 900;
 }
 .contentbanner p.content {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   margin: 0px 20px 20px 20px;
 }
@@ -66,7 +72,7 @@
     font-size: 30px;
   }
   .contentbanner p.content {
-    font-size: 26px;
+    font-size: 27px;
   }
   .contentbanner p.tagbanner {
     font-size: 50px;
@@ -87,16 +93,22 @@
   .alogo p {
     font-size: 25px;
   }
+  .contentbanner h5 {
+    font-size: 90px;
+  }
 }
 @media all and (min-width: 1200px) {
   .contentbanner {
-    padding: 20px 350px 100px 350px;
+    padding: 20px 300px 100px 300px;
   }
   .aboutbanner {
     height: 450px;
   }
   .aboutbanner h1 {
     font-size: 180px;
+  }
+  .contentbanner p.content {
+    font-size: 30px;
   }
   .abtwrap {
     padding: 40px 180px;
