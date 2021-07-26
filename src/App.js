@@ -24,29 +24,32 @@ function App() {
           <Route exact path="/">
             <MainContent />
           </Route>
-          <Route path="/comingsoon">
+          <Route exact path="/comingsoon">
             <Comingsoon />
           </Route>
-          <Route path="/aboutus">
+          <Route exact path="/aboutus">
             <AboutUs />
           </Route>
-          <Route path="/peoplebehindlynshia">
+          <Route exact path="/peoplebehindlynshia">
             <PeopleBehindLynshia />
           </Route>
-          <Route path="/careers">
+          <Route exact path="/careers">
             <Careers />
           </Route>
-          <Route path="/privacypolicy">
+          <Route exact path="/privacypolicy">
             <PrivacyPolicy />
           </Route>
-          <Route path="/termsofuse">
+          <Route exact path="/termsofuse">
             <TermsOfUse />
           </Route>
-          <Route path="/copyright">
+          <Route exact path="/copyright">
             <CopyRight />
           </Route>
-          <Route path="/disclamer">
+          <Route exact path="/disclamer">
             <Disclamer />
+          </Route>
+          <Route>
+            <MainContent />
           </Route>
         </Switch>
         <Footer />
